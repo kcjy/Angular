@@ -1,0 +1,233 @@
+Year,Quarter,Country,Products,Sold
+2015,Q1,France,A,99
+2015,Q2,Singapore,B,1
+2015,Q3,Germany,C,7
+2015,Q4,United States,D,34
+2015,Q1,France,A,52
+2015,Q2,Singapore,B,6
+2015,Q3,Germany,C,30
+2015,Q4,United States,D,64
+2015,Q1,France,A,99
+2015,Q2,Singapore,B,67
+2015,Q3,Germany,C,71
+2015,Q4,United States,D,67
+2015,Q1,France,A,42
+2015,Q2,Singapore,B,99
+2015,Q3,Germany,C,18
+2015,Q4,United States,D,94
+2015,Q1,France,A,61
+2015,Q2,Singapore,B,20
+2015,Q3,Germany,C,69
+2015,Q4,United States,D,39
+2015,Q1,France,A,95
+2015,Q2,Singapore,B,27
+2015,Q3,Germany,C,12
+2015,Q4,United States,D,59
+2015,Q1,France,A,62
+2015,Q2,Singapore,B,80
+2015,Q3,Germany,C,36
+2015,Q4,United States,D,100
+2015,Q1,France,A,13
+2015,Q2,Singapore,B,0
+2015,Q3,Germany,C,31
+2015,Q4,United States,D,90
+2015,Q1,France,A,43
+2015,Q2,Singapore,B,87
+2016,Q3,Germany,C,82
+2016,Q4,United States,D,8
+2016,Q1,France,A,97
+2016,Q2,Singapore,B,43
+2016,Q3,Germany,C,94
+2016,Q4,United States,D,85
+2016,Q1,France,A,39
+2016,Q2,Singapore,B,14
+2016,Q3,Germany,C,49
+2016,Q4,United States,D,87
+2016,Q1,France,A,95
+2016,Q2,Singapore,B,1
+2016,Q3,Germany,C,13
+2016,Q4,United States,D,87
+2016,Q1,France,A,15
+2016,Q2,Singapore,B,85
+2016,Q3,Germany,C,33
+2016,Q4,United States,D,84
+2016,Q1,France,A,47
+2016,Q2,Singapore,B,42
+2016,Q3,Germany,C,74
+2016,Q4,United States,D,70
+2016,Q1,France,A,91
+2016,Q2,Singapore,B,30
+2016,Q3,Germany,C,64
+2016,Q4,United States,D,81
+2016,Q1,France,A,94
+2016,Q2,Singapore,B,73
+2016,Q3,Germany,C,7
+2016,Q4,United States,D,79
+2016,Q1,France,A,1
+2016,Q2,Singapore,B,6
+2016,Q3,Germany,C,82
+2016,Q4,United States,D,83
+2016,Q1,France,A,84
+2016,Q2,Singapore,B,98
+2016,Q3,Germany,C,5
+2016,Q4,United States,D,2
+2016,Q1,France,A,40
+2016,Q2,Singapore,B,99
+2016,Q3,Germany,C,9
+2016,Q4,United States,D,16
+2016,Q1,France,A,100
+2016,Q2,Singapore,B,33
+2016,Q3,Germany,C,46
+2016,Q4,United States,D,14
+2016,Q1,France,A,43
+2016,Q2,Singapore,B,78
+2016,Q3,Germany,C,1
+2016,Q4,United States,D,6
+2016,Q1,France,A,89
+2016,Q2,Singapore,B,9
+2016,Q3,Germany,C,82
+2016,Q4,United States,D,63
+2016,Q1,France,A,55
+2016,Q2,Singapore,B,61
+2016,Q3,Germany,C,72
+2016,Q4,United States,D,23
+2016,Q1,France,A,62
+2016,Q2,Singapore,B,72
+2016,Q3,Germany,C,75
+2016,Q4,United States,D,87
+2016,Q1,France,A,80
+2016,Q2,Singapore,B,47
+2016,Q3,Germany,C,21
+2016,Q4,United States,D,46
+2016,Q1,France,A,44
+2016,Q2,Singapore,B,51
+2016,Q3,Germany,C,26
+2017,Q4,United States,D,99
+2017,Q1,France,A,11
+2017,Q2,Singapore,B,40
+2017,Q3,Germany,C,58
+2017,Q4,United States,D,0
+2017,Q1,France,A,47
+2017,Q2,Singapore,B,52
+2017,Q3,Germany,C,77
+2017,Q4,United States,D,67
+2017,Q1,France,A,44
+2017,Q2,Singapore,B,72
+2017,Q3,Germany,C,27
+2017,Q4,United States,D,97
+2017,Q1,France,A,9
+2017,Q2,Singapore,B,11
+2017,Q3,Germany,C,6
+2017,Q4,United States,D,46
+2017,Q1,France,A,12
+2017,Q2,Singapore,B,44
+2017,Q3,Germany,C,79
+2017,Q4,United States,D,73
+2017,Q1,France,A,74
+2017,Q2,Singapore,B,20
+2017,Q3,Germany,C,62
+2017,Q4,United States,D,0
+2017,Q1,France,A,63
+2017,Q2,Singapore,B,35
+2017,Q3,Germany,C,47
+2017,Q4,United States,D,91
+2017,Q1,France,A,18
+2017,Q2,Singapore,B,65
+2017,Q3,Germany,C,91
+2017,Q4,United States,D,10
+2017,Q1,France,A,13
+2017,Q2,Singapore,B,41
+2017,Q3,Germany,C,89
+2017,Q4,United States,D,8
+2017,Q1,France,A,58
+2017,Q2,Singapore,B,46
+2017,Q3,Germany,C,98
+2018,Q4,United States,D,72
+2018,Q1,France,A,79
+2018,Q2,Singapore,B,37
+2018,Q3,Germany,C,3
+2018,Q4,United States,D,58
+2018,Q1,France,A,15
+2018,Q2,Singapore,B,72
+2018,Q3,Germany,C,84
+2018,Q4,United States,D,4
+2018,Q1,France,A,6
+2018,Q2,Singapore,B,4
+2018,Q3,Germany,C,68
+2018,Q4,United States,D,52
+2018,Q1,France,A,98
+2018,Q2,Singapore,B,80
+2018,Q3,Germany,C,29
+2018,Q4,United States,D,77
+2018,Q1,France,A,93
+2018,Q2,Singapore,B,78
+2018,Q3,Germany,C,11
+2018,Q4,United States,D,44
+2018,Q1,France,A,63
+2018,Q2,Singapore,B,50
+2018,Q3,Germany,C,14
+2018,Q4,United States,D,20
+2018,Q1,France,A,42
+2018,Q2,Singapore,B,14
+2018,Q3,Germany,C,18
+2018,Q4,United States,D,36
+2018,Q1,France,A,7
+2018,Q2,Singapore,B,75
+2018,Q3,Germany,C,31
+2018,Q4,United States,D,47
+2018,Q1,France,A,41
+2018,Q2,Singapore,B,41
+2018,Q3,Germany,C,93
+2018,Q4,United States,D,47
+2018,Q1,France,A,26
+2018,Q2,Singapore,B,32
+2018,Q3,Germany,C,29
+2018,Q4,United States,D,52
+2018,Q1,France,A,73
+2018,Q2,Singapore,B,83
+2018,Q3,Germany,C,53
+2018,Q4,United States,D,5
+2018,Q1,France,A,98
+2018,Q2,Singapore,B,27
+2018,Q3,Germany,C,78
+2018,Q4,United States,D,15
+2018,Q1,France,A,33
+2018,Q2,Singapore,B,5
+2018,Q3,Germany,C,8
+2018,Q4,United States,D,90
+2018,Q1,France,A,22
+2018,Q2,Singapore,B,47
+2018,Q3,Germany,C,35
+2018,Q4,United States,D,46
+2018,Q1,France,A,63
+2018,Q2,Singapore,B,95
+2018,Q3,Germany,C,81
+2018,Q4,United States,D,53
+2018,Q1,France,A,43
+2018,Q2,Singapore,B,6
+2018,Q3,Germany,C,18
+2018,Q4,United States,D,96
+2018,Q1,France,A,96
+2018,Q2,Singapore,B,28
+2018,Q3,Germany,C,90
+2018,Q4,United States,D,13
+2018,Q1,France,A,96
+2018,Q2,Singapore,B,5
+2018,Q3,Germany,C,24
+2018,Q4,United States,D,2
+2018,Q1,France,A,19
+2018,Q2,Singapore,B,57
+2018,Q3,Germany,C,35
+2018,Q4,United States,D,8
+2018,Q1,France,A,6
+2018,Q2,Singapore,B,58
+2018,Q3,Germany,C,96
+2018,Q4,United States,D,18
+2018,Q1,France,A,42
+2018,Q2,Singapore,B,65
+2018,Q3,Germany,C,24
+2018,Q4,United States,D,25
+2018,Q1,France,A,32
+2018,Q2,Singapore,B,81
+2018,Q3,Germany,C,18
+2018,Q4,United States,D,97
