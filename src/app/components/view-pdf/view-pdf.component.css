@@ -1,0 +1,14 @@
+.container {
+border-radius: 4px;
+box-sizing: border-box;
+overflow-x: hidden;
+overflow-y: hidden !important;
+outline: 0;
+width: 500px;
+height: 250px;
+min-height: inherit;
+max-height: inherit;
+}
+.mat-dialog-content {
+min-height: 35vh;
+}

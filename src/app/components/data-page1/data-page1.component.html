@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+  <div class="container wrapper">
+    <canvas id="myChart" width="400" height="400"></canvas>
+      <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+          type: 'line',
+          options: {
+              scales: {
+                  yAxes: [{
+                      ticks: {
+                          beginAtZero: false
+                      }
+                  }]
+              }
+          }
+      });
+      </script>
+  </div>
+  <div *ngIf="isLoadingResults === true" class="spinner-container">
+    <div class="spinner-background">Loading...</div>
+    <mat-progress-spinner #spinner
+        color="grey"
+        mode="indeterminate"
+        value="50">
+    </mat-progress-spinner>
+  </div>
+
+
+  <div class="container wrapper">
+		<div class="col-md-12 table-responsive" #epltable>
+      <div class="row">
+          <div class="col-md-12">
+
+            <table mdbTable mdbTableScroll hover="true" bordered="true" striped="true" scrollY="true"
+            maxHeight="500" scrollX="true" Width="100%">
+              <!-- <caption>Raw Data</caption> -->
+              <thead>
+                <tr class="black" style="color:white">
+                    <th scope="col">Date</th>
+                    <th scope="col">Open</th>
+                    <th scope="col">High</th>
+                    <th scope="col">Low</th>
+                    <th scope="col">Close</th>
+                </tr>
+              </thead>
+                <tbody>
+                  <tr *ngFor="let issues of IssuesList">
+                      <th scope="row">{{issues.Date}}</th>
+                      <td>{{issues.Open}}</td>
+                      <td>{{issues.High}}</td>
+                      <td>{{issues.Low}}</td>
+                      <td>{{issues.Close}}</td>
+                  </tr>
+                </tbody>
+              </table>
+						<button (click)="exportToExcel()" class="btn btn-success"><i class="fas fa-file-excel"></i> Export To Excel</button>
+            </div>
+          </div>
+        </div>
+			</div>
+
+  </body>
+  </html>
