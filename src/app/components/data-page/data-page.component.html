@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div></div>
+	<div class="container wrapper" >
+      <div class="row">
+          <div class="col-lg-6">
+            <h3 style="text-align:center"><b>Correlation Matrix</b></h3>
+            <table id="corr_table" mdbTable mdbTableScroll hover="true"
+						bordered="true" striped="true" scrollY="true"
+             	Height = 100% scrollX="true" Width="100%">
+              <thead>
+                <tr class="black" style="color:white">
+                    <th scope="col">Correlation</th>
+                    <th scope="col">A</th>
+                    <th scope="col">B</th>
+                    <th scope="col">C</th>
+                    <th scope="col">D</th>
+                    <th scope="col">E</th>
+                </tr>
+              </thead>
+                <tbody>
+                  <tr *ngFor="let value of corrMatrix">
+                      <th scope="row">{{value.Correlation}}</th>
+                      <td>{{value.A}}</td>
+                      <td>{{value.B}}</td>
+                      <td>{{value.C}}</td>
+                      <td>{{value.D}}</td>
+                      <td>{{value.E}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+						<span flex class="chart-spacer"></span>
+						<div class="col-lg-6">
+							<h3 style="text-align:center"><b>Test Matrix</b></h3>
+	            <table id="test_table_1" mdbTable mdbTableScroll hover="true" bordered="true" striped="true" scrollY="true"
+	            	Height = 100% scrollX="true" Width="100%">
+	              <thead>
+	                <tr class="black" style="color:white">
+	                    <th scope="col">Correlation</th>
+	                    <th scope="col">A</th>
+	                    <th scope="col">B</th>
+	                    <th scope="col">C</th>
+	                    <th scope="col">D</th>
+	                    <th scope="col">E</th>
+	                </tr>
+	              </thead>
+	                <tbody>
+	                  <tr *ngFor="let value of corrMatrix">
+	                      <th scope="row">{{value.Correlation}}</th>
+	                      <td>{{value.A}}</td>
+	                      <td>{{value.B}}</td>
+	                      <td>{{value.C}}</td>
+	                      <td>{{value.D}}</td>
+	                      <td>{{value.E}}</td>
+	                  </tr>
+	                </tbody>
+	              </table>
+						</div>
+    </div>
+		<p></p><p></p><p></p>
+  </div>
+
+	<div class="container wrapper" style="font-style: bold;text-align: center;">
+		<mat-label><b>Price Charts</b></mat-label>
+		<menu></menu>
+		<select name="selectedQuantity" id="price_selector" class="form-control" [(ngModel)]="selectedTicker"
+		(ngModelChange)="onChange($event)" style="max-width:200px;">
+		    <option *ngFor="let ticker of tickers" [ngValue]="ticker.value">
+					{{ ticker.viewValue }}</option>
+		 </select>
+		 <p></p>
+	</div>
+
+	<div class="container wrapper">
+    <canvas id="myChart" width="500" height="500"></canvas>
+  </div>
+
+	<div class="container wrapper" style="font-style: bold;text-align: center;">
+		<div class="row">
+				<div class="col-lg-6">
+					<div class="container wrapper">
+				    <canvas id="Chart1" width="500" height="500"></canvas>
+				  </div>
+				</div>
+				<div class="col-lg-6">
+					<div class="container wrapper">
+				    <canvas id="Chart2" width="500" height="500"></canvas>
+				  </div>
+				</div>
+		</div>
+	</div>
+</body>
+</html>
