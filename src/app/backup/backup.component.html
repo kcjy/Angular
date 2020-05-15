@@ -1,0 +1,177 @@
+<div class="cardList">
+  <ng-container>
+
+
+    <div class="e-card">
+        <div class="e-card-header">
+            <div class="e-card-header-image football"></div>
+            <div class="e-card-header-caption">
+                <div class="e-card-header-title"> Laura Callahan</div>
+                <div class="e-card-sub-title">Sales Coordinator and Representative</div>
+            </div>
+        </div>
+        <div class="e-card-content">
+            Laura received a BA in psychology from the University of Washington. She has also completed a course in business French. She reads and writes French.
+        </div>
+    </div>
+  </ng-container>
+</div>
+
+<style>
+  .cardInner {
+    display: grid;
+    grid-template-areas: "header header" "side content" "footer footer";
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    margin: 50px;
+    max-width: 500px;
+  }
+</style>
+<div class="cardInner">
+  <div class="e-card-header"[style.grid-area]="'header'">
+      <div class="e-card-header-caption">
+          <div class="e-card-title">Advanced UWP</div>
+      </div>
+    </div>
+  <div class="e-card-content" [style.grid-area]="'side'">
+        Communicating with Windows 10 and Other Apps, the second in a five-part series written by Succinctly series
+        author Matteo Pagani. To download the complete white paper, and other papers in the series, visit
+        the White Paper section of Syncfusion’s Technology Resource Portal.
+  </div>
+  <div class="e-card-content" [style.grid-area]="'content'">
+    Blah Blah
+  </div>
+  <div [style.grid-area]="'footer'">
+    Footer
+   </div>
+</div>
+
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title that wraps to a new line</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+      <footer class="blockquote-footer">
+        <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img" src="." alt="Card image">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+
+
+<div tabindex="0" class="e-card" id="basic">
+     <div class="e-card-title">Explore Cities</div>
+     <div class="e-card-separator"></div>
+     <div class="e-card-content">
+         Sydney is a city on the east coast of Australia. Sydney is the capital city of New South Wales. About four million people
+         live in Sydney which makes it the biggest city in Oceania.
+     </div>
+     <div class="e-card-separator"></div>
+     <div class="e-card-content">
+         New York City has been described as the cultural, financial, and media capital of the world, and exerts a significant impact
+         upon commerce and etc.,
+     </div>
+     <div class="e-card-separator"></div>
+     <div class="e-card-content">
+         Malaysia is one of the Southeast Asian countries, on a peninsula of the Asian continent, to a certain extent; it can be recognized
+         as part of the Asian continent.
+     </div>
+ </div>
+
+ <div style="margin: 50px;">
+     <div class="e-card" style="max-width:400px">
+         <div class="e-card-header-title">Eiffel Tower</div>
+         <div class="e-card-content">
+            The Eiffel Tower is acknowledged as the universal symbol of Paris and France.
+         </div>
+         <div class="e-card-actions">
+             <button  class="e-card-btn">
+                 <img src="./fav.png" style="height: 18px;width: 18px;" title="Bookmark">
+             </button>
+             <button class="e-card-btn">
+                 <img src="./like.png" style="height: 18px;width: 18px;" title="Like">
+             </button>
+             <button class="e-card-btn">
+                 <img src="./share.png" style="height: 18px;width: 18px;" title="Share">
+             </button>
+         </div>
+     </div>
+ </div>
+ <div style="margin-left: 50px;">
+         <div class="e-card" style="max-width:400px">
+             <div class="e-card-header-title">Eiffel Tower</div>
+             <div class="e-card-content">
+                 The Eiffel Tower is acknowledged as the universal symbol of Paris and France.
+             </div>
+             <div class="e-card-actions e-card-vertical">
+                 <button class="e-card-btn">LIKE</button>
+                 <button class="e-card-btn">SHARE</button>
+             </div>
+         </div>
+     </div>
+
+ <div style="margin: 50px;">
+     <div tabindex="0" class="e-card" id="basic">
+         <div class="e-card-title">To-Do List</div>
+         <div class="e-card-separator"></div>
+         <div class="e-card-content">
+             <div id='element'></div>
+         </div>
+     </div>
+ </div>
